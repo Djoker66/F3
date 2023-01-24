@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    overflow: auto;
+    padding: 17px 8rem;
+    background-attachment: fixed;
+    background-color: black;
+    
+}
+
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+}
+
+.nav a{
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: #979B95;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+.text{
+    background-color: #1573FD;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    height: 390px;
+}
+
+.text h1{
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+
+.text p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.text button{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    border-color: white;
+    margin-top: 1rem;
+}
+
+.about{
+    background-color: white;
+    text-align: center;
+    height: 350px;
+}
+
+.about h2{
+    font-size: 2rem;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.about p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.serv{
+    background-color: #F8F9FA;
+    text-align: center;
+    height: 300px;
+}
+
+.serv h2{
+    font-size: 2rem;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.serv p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.cont {
+    background-color: white;
+    text-align: center;
+    height: 300px;
+}
+
+.cont h2{
+    font-size: 2rem;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.cont p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
